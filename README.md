@@ -21,7 +21,7 @@ My challenge was to build out the Workit landing page and get it looking as clos
 <br>
 <br>
 I was provided with a Figma file.
-
+<img width="1133" alt="Screenshot 2024-11-04 at 18 13 47" src="https://github.com/user-attachments/assets/48f23907-7b2c-4410-8578-95ff8bf29893">
 <br>
 <br>
 
