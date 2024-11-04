@@ -29,6 +29,7 @@ I was provided with a Figma file.
 
 - Semantic HTML5 markup
 - Tailwind CSS
+- Javascript
 
 ### Links
 - Solution URL: [time-tracking-dashboard](https://annadehtiarova.github.io/time-tracking-dashboard/)
