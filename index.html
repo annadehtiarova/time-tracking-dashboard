@@ -37,34 +37,34 @@
             
     </script>
 </head>
-<body class="bg-blue-900 flex items-center justify-center h-screen">
-    <div class="font-['Rubik'] grid grid-cols-4 grid-rows-2 gap-8 w-[1120px] mx-auto">
-        <div class="row-span-2 bg-blue-700 rounded-b-lg">
-            <div class="bg-blue-500 text-white px-8 py-20 rounded-lg flex flex-col gap-8">
-                <img class="w-12 border-2 rounded-full border-white" src="images/image-jeremy.png" alt="image-jeremy">
+<body class="bg-blue-900 flex items-center justify-center h-screen max-[375px]:items-start">
+    <div class="font-['Rubik'] grid grid-cols-4 grid-rows-2 gap-8 w-[1120px] mx-auto max-[375px]:grid-cols-1 max-[375px]:grid-rows-[200px_150px_150px_150px_150px_150px_150px] max-[375px]:gap-4 max-[375px]:p-4 ">
+        <div class="row-span-2 max-[375px]:row-span-1 bg-blue-700 rounded-b-lg">
+            <div class="bg-blue-500 text-white px-8 py-20 rounded-lg flex flex-col gap-8 max-[375px]:flex-row max-[375px]:py-10">
+                <img class="w-12 max-[375px]:w-14 max-[375px]:object-contain border-2 rounded-full border-white" src="images/image-jeremy.png" alt="image-jeremy">
                 <div class="flex flex-col gap-2">
                 <div class="text-[12px] text-blue-100">Report for</div>
-                <div class="text-4xl font-light">Jeremy Robson</div>
+                <div class="text-4xl font-light max-[375px]:text-2xl">Jeremy Robson</div>
             </div>
             </div>
-            <div class="flex flex-col gap-4 p-8 bg-blue-700 rounded-lg">
+            <div class="flex flex-col gap-4 p-8 bg-blue-700 rounded-lg max-[375px]:flex-row max-[375px]:justify-evenly max-[375px]:p-4">
                 <div id="daily" class="text-blue-100 hover:text-white hover:cursor-pointer">Daily</div>
                 <div id="weekly" class="text-blue-100 hover:text-white hover:cursor-pointer">Weekly</div>
                 <div id="monthly" class="text-blue-100 hover:text-white hover:cursor-pointer">Monthly</div>
             </div>
         </div>
-        <div class="bg-work rounded-lg relative">
+        <div class="bg-work rounded-lg relative ">
             <div >
-                <img class="w-18 absolute right-4" src="images/icon-work.svg" alt="work">
+                <img class="w-18 absolute right-4 max-[375px]:w-10" src="images/icon-work.svg" alt="work">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4  bg-blue-700 text-white rounded-lg ">
                 <div class="flex flex-row justify-between">
                     <div>Work</div>
                     <img class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                <div class="current text-5xl font-light">Data</div>
-                <div class="previous text-blue-100">Last week - Data</div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
             </div>
             </div>
         </div>
@@ -72,14 +72,14 @@
             <div>
                 <img class="w-18 absolute right-4" src="images/icon-play.svg" alt="play">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4 bg-blue-700 text-white rounded-lg">
                 <div class="flex flex-row justify-between">
                     <div>Play</div>
                     <img class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                <div class="current text-5xl font-light">Data</div>
-                <div class="previous text-blue-100">Last week - Data</div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                    <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                    <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
                 </div>
             </div>
         </div>
@@ -87,14 +87,14 @@
             <div>
                 <img class="w-18 absolute right-4" src="images/icon-study.svg" alt="study">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4 bg-blue-700 text-white rounded-lg">
                 <div class="flex flex-row justify-between">
                     <div>Study</div>
                     <img class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                <div class="current text-5xl font-light">Data</div>
-                <div class="previous text-blue-100">Last week - Data</div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                    <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                    <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
                 </div>
             </div>
         </div>
@@ -102,29 +102,29 @@
             <div>
                 <img class="w-18 absolute right-4" src="images/icon-exercise.svg" alt="exercise">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4 bg-blue-700 text-white rounded-lg">
                 <div class="flex flex-row justify-between">
                     <div>Exercise</div>
                     <img  class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                    <div class="current text-5xl font-light">Data</div>
-                    <div class="previous text-blue-100">Last week - Data</div>
-                    </div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                    <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                    <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
+                </div>
             </div>
         </div>
         <div class="bg-social rounded-lg relative">
             <div>
                 <img class="w-18 absolute right-4"  src="images/icon-social.svg" alt="social">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4 bg-blue-700 text-white rounded-lg">
                 <div class="flex flex-row justify-between">
                     <div>Social</div>
                     <img class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                    <div class="current text-5xl font-light">Data</div>
-                    <div class="previous text-blue-100">Last week - Data</div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                    <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                    <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
                 </div>
             </div>
             
@@ -133,14 +133,14 @@
             <div>
                 <img class="w-18 absolute right-0"  src="images/icon-self-care.svg" alt="icon-self-care">
             </div>
-            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 bg-blue-700 text-white rounded-lg">
+            <div class="card absolute right-0 bottom-0 w-full flex flex-col gap-8 p-8 max-[375px]:p-4 max-[375px]:gap-4 bg-blue-700 text-white rounded-lg">
                 <div class="flex flex-row justify-between">
                     <div>Self care</div>
                     <img class="object-contain" src="images/icon-ellipsis.svg" alt="icon-ellipsis">
                 </div>
-                <div class="flex flex-col gap-2">
-                    <div class="current text-5xl font-light">Data</div>
-                    <div class="previous text-blue-100">Last week - Data</div>
+                <div class="flex flex-col gap-2 max-[375px]:flex-row max-[375px]:justify-between max-[375px]:items-baseline">
+                    <div class="current text-5xl font-light max-[375px]:text-3xl">Data</div>
+                    <div class="previous text-blue-100 max-[375px]:text-[12px]">Last week - Data</div>
                 </div>
             </div>
         </div>

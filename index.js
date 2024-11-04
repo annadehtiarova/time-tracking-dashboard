@@ -94,3 +94,53 @@ monthlyBtn.addEventListener('click', function(){
     
 })
 
+
+// Improvements
+/*
+function updateCards(timeframe) {
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach((card, index) => {     
+        const currentData = card.querySelector('.current');
+        const previousData = card.querySelector('.previous');
+        currentData.innerText = `${data[index].timeframes[timeframe].current}hrs`;
+        previousData.innerText = `Last ${timeframe === 'daily' ? 'day' : timeframe === 'weekly' ? 'week' : 'month'} - ${data[index].timeframes[timeframe].previous}hrs`;
+    });
+
+    updateButtonStyles(timeframe);
+}
+
+function updateButtonStyles(activeTimeframe) {
+    const buttons = {
+        daily: dailyBtn,
+        weekly: weeklyBtn,
+        monthly: monthlyBtn
+    };
+
+    Object.keys(buttons).forEach(key => {
+        const button = buttons[key];
+        if (key === activeTimeframe) {
+            button.classList.add('text-white');
+            button.classList.remove('text-blue-100');
+        } else {
+            button.classList.remove('text-white');
+            button.classList.add('text-blue-100');
+        }
+    });
+}
+
+// Event listeners for buttons
+dailyBtn.addEventListener('click', function() {
+    updateCards('daily');
+});
+
+weeklyBtn.addEventListener('click', function() {
+    updateCards('weekly');
+});
+
+monthlyBtn.addEventListener('click', function() {
+    updateCards('monthly');
+});
+
+*/
+
